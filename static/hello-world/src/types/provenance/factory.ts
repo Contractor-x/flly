@@ -1,4 +1,5 @@
-import { DataProvenance, VerificationStatus } from './record';
+import { VerificationStatus } from './status';
+import { DataProvenance } from './record';
 
 export function createProvenanceRecord(
   sourceId: string,
